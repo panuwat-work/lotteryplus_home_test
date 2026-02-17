@@ -1,0 +1,14 @@
+ui_setting:
+  nano_timeout: 0.25
+  micro_timeout: 0.5
+  tiny_timeout: 1
+  small_timeout: 3
+  medium_timeout: 10
+  wait_for_element_displayed: 5
+  page_load_timeout: 60
+  file_download_timeout: 20
+  retry_time: 5x
+  cancel_wait_delay: 10
+
+URL: https://xn--m3ca1athe9asc7b2b6iqe.com
+BROWSER: Chrome
