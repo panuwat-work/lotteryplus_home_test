@@ -1,13 +1,13 @@
 tc_001:
   card_id: P13444651
-  topup_amount: '105'
+  topup_amount: '200'
   current_balance: '0'
   topup_bank:
     account_name: 'บจก. ลอตเตอรี่พลัส'
     account_number: '154-1-82583-1'
 tc_005:
   card_id: P13444651
-  topup_amount: '105'
+  topup_amount: '200'
   current_balance: '0'
   topup_bank:
     account_name: 'บจก. ลอตเตอรี่พลัส'
