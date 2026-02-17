@@ -51,3 +51,7 @@ robot --dryrun testcases/tc_topup.robot
 | **TC-TOPUP-01** | Top-up cash success (manual input amount) |
 | **TC-TOPUP-05** | Top-up cash using suggested amount |
 | **TC-TOPUP-09** | Cancel top-up flow at NokCash page |
+
+## Dryrun Results
+
+<img width="631" height="246" alt="image" src="https://github.com/user-attachments/assets/925d03bf-1cd2-41e8-96e5-c8b1eb7f199c" />
