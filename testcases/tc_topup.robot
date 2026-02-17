@@ -5,7 +5,7 @@ Suite Teardown    SeleniumLibrary.Close all browsers
 
 *** Test Cases ***
 TC-TOPUP-01
-    [Documentation]    Top-up cash success
+    [Documentation]    เข้าสู่หน้าสรุปการเติมเงินสำเร็จ
     [Tags]    tc_001    topup
     homepage_page.Click at nokcash button
     topup_feature.Verify topup page components is displayed as expected    expected_card_id=${tc_001['card_id']}
@@ -14,7 +14,7 @@ TC-TOPUP-01
     topup_feature.Verify payment summary page components is displayed as expected    expected_nokcash_amount=${tc_001['topup_amount']}    expected_subtotal=${tc_001['topup_amount']}    expected_total_price=${tc_001['topup_amount']}    expected_remaining_amount=${tc_001['remaining_amount']}
     
 TC-TOPUP-05
-    [Documentation]    เลือกจำนวนเงินจากจำนวนเงินแนะนำ และ กดชำระเงิน
+    [Documentation]    เลือกจำนวนเงินแนะนำและกดชำระเงิน
     [Tags]    tc_005    topup
     homepage_page.Click at nokcash button
     topup_feature.Verify topup page components is displayed as expected    expected_card_id=${tc_005['card_id']}
@@ -23,7 +23,7 @@ TC-TOPUP-05
     topup_feature.Verify payment summary page components is displayed as expected    expected_nokcash_amount=${tc_005['topup_amount']}    expected_subtotal=${tc_005['topup_amount']}    expected_total_price=${tc_001['topup_amount']}    expected_remaining_amount=${tc_001['remaining_amount']}
     
 TC-TOPUP-09
-    [Documentation]    Cancel at NokCash page
+    [Documentation]    ยกเลิกจากหน้า NokCash
     [Tags]    tc_009    topup
     homepage_page.Click at nokcash button
     topup_feature.Verify topup page components is displayed as expected    expected_card_id=${tc_009['card_id']}
